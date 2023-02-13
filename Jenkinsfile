@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("SCM Checkout"){
             steps{
-                echo "Cloning Repositroy from Git Hub............."
+                echo "Cloning Repositroy from Git Hub............"
                 git 'https://github.com/bharavi14/mavenProject2.git'
             }   
         }
