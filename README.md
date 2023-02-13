@@ -23,6 +23,7 @@ First you’ll need to setup a Java project for Maven to build. To keep the focu
 + In a project directory of your choosing, create the following subdirectory structure.
 + For example, with `mkdir -p src/main/java/hello` on *nix systems:*
 
+
 + on Windows you can create this directory manually.
 
     ```
