@@ -4,12 +4,12 @@ pipeline {
         stage('MVN Build') {
              steps{
                  echo "Building Jar File..............."
-                 sh "mvn clean install"
+                 sh "mvn clean package"
             }
             post {
                 success {
                     echo "Archiving Artifacts"
-                    archiveArtifacts artifacts: '**/target/*.jar'
+                    archiveArtifacts artifacts: '**/target/*.war'
                 }
             }
         }
